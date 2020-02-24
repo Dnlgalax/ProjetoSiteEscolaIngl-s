@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Escola de Inglês</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <img src="img/logo.jpg" alt="Logo Escola de Inglês">
+        <div id="social">
+            <img src="img/facebook.png" alt="Imagem do facebook">
+            <img src="img/twitter.png" alt="Imagem do twitter">
+        </div>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html" target="_self">Home</a></li>
+                <li><a href="modulos.html" target="_self">Módulos</a></li>
+                <li><a href="contato.html" target="_self">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <br class="fix">
+    <section id="contato">
+        <form name="fContato" method="post" action="#">
+            <label>Nome</label><br>
+            <input type="text" maxlength="50" size="60" name="fNome" autofocus required placeholder="Digite o seu nome.."><br><br>
+
+            <label>Telefone de contato</label><br>
+            <input type="tel" maxlength="15" size="20" name="fFone" placeholder="(xx)xxxx-xxxx" required><br><br>
+
+            <label>Email para contato</label><br>
+            <input type="email" maxlength="50" size="60" name="fEmail" required placeholder="Digite o seu e-mail.."><br><br>
+
+            <label>Cep</label><br>
+            <input type="text" maxlength="10" size="15" name="fCep" placeholder="xxxxx-xxx" pattern="\d{5}-
+                    ?\d{3}" required><br><br>
+
+            <label>Data de Nascimento</label><br>
+            <input type="date" name="fNascimento" required><br><br>
+
+            <label>Módulo que pretende iniciar (sujeito a teste de conhecimento)</label><br>
+            <input type="number" min="1" max="10" step="1" value="1" name="fModulo"><br><br>
+
+            <label>Horário de início</label><br>
+            <input type="time" name="fHorario" step="1800" value="10:00"><br><br>
+
+            <label>Cor da pasta - Ao matricular você ganha uma pasta para guardar seu material</label><br>
+            <input type="color" name="fCor" value="#008800"><br><br>
+            
+            <input type="submit" value="Enviar" class="botao">
+            <input type="reset" value="Limpar" class="botao">
+        </form>
+    </section>
+    <footer>
+        <p>Layout do site da escola de Inglês</p>
+        <p>Desenvolvido por Daniel Freitas Ferreira</p>
+        <p>Direitos reservados!</p>
+    </footer>
+</body>

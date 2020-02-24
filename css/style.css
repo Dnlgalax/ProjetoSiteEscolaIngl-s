@@ -1,0 +1,213 @@
+#menu {
+    float: left;
+    margin-top: 92px;
+    width: 450px;
+}
+
+#menu a:hover {
+    color: black;
+}
+
+#menu ul {
+    list-style: none;
+    background: linear-gradient(to bottom, #ddd, #666);
+    padding: 0px;
+    margin: 0px;
+}
+
+#menu li {
+    height: 60px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 150px;
+    border-right: 2px solid #fff;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFF;
+}
+
+body {
+    margin: 0 auto;
+    width: 1000px;
+    background-color: #ddd;
+    padding: 0px;
+    background: url(../img/fundo.gif) repeat-x;
+}
+
+#cabecalho img {
+    float: left;
+}
+
+#social {
+    float: right;
+    margin-top: 40px;
+}
+
+#social img {
+    width: 32px;
+    height: 32px;
+}
+
+.fix {
+    clear: both;
+}
+
+#lateral {
+    margin: 15px;
+    margin-left: 10px;
+    text-align: center;
+    float: right;
+    background: #ddd;
+    width: 190px;
+    border: 2px solid #336666;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#lateral h1 {
+    font-size: 15pt;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    margin-top: -2px;
+}
+
+#lateral h2 {
+    font-size: 15pt;
+}
+
+#lateral p {
+    text-align: justify;
+}
+
+#main {
+    background: #eee;
+    width: 760px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#main h1 {
+    font-size: 20pt;
+    border-bottom: 1px solid #000;
+}
+
+#main h2 {
+    font-size: 15px;
+}
+
+#main p {
+    text-align: justify;
+}
+
+footer {
+    color: #888;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+footer p {
+    display:inline-block;
+    width: 316px;
+    text-align: center;
+}
+
+#slider {
+    width: 960px;
+    height: 384px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#slider img {
+    width: 960px;
+    height: 384px;
+}
+
+#b1 {
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+#b2 {
+    position: relative;
+    left: 0px;
+    top: -388px;
+}
+
+#b3 {
+    position: relative;
+    left: 0px;
+    top: -776px;
+}
+
+#contato {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    border-style: outset;
+    border-width: 5px;
+}
+
+#contato label {
+    font-size: 15px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Arial;
+    color:#777;
+    margin-bottom: 15px;
+}
+
+#contato input{
+    font-size:15pt;
+    color:#000;
+    margin-top: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.botao {
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color:#7eacac;
+    border:0px;
+    cursor:pointer;
+    margin: 15px;
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+details {
+    margin-top: 30px;
+}
+
+summary {
+    height: 40px;
+    border-radius: 10px;
+    padding: 15px 0px 0px 10px;
+    font: 15px Arial;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #eee, #999);
+    outline: none;
+}
+
+details p {
+    font-size: 20px;
+}
+
+summary:before {
+    margin-right: 5px;
+    content: "+";
+}
+
+details[open] summary:before {
+    content: "-";
+}
+ 
